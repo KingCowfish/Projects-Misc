@@ -1,0 +1,73 @@
+Xamarin.Forms Notes
+
+-Library enables native build with C#
+
+-XAML: extensible application markup language
+	-UI
+-code-behind: behavior of a page
+
+-built on Xamarin.Android and Xamarin.iOS
+
+Different XAML page types:
+-content: presents content to the user
+-Master Detail
+-Navigation
+-Carousel
+
+All Xamarin is built on top of Xamarin.Android and 
+Xamarin.iOS which are built on top of mono "Mono"
+-open source version of .NET for non-windows platforms
+-C# code --> (Compile) IL (intermediate language and Mono Runtime)
+	Just in time (JIT) compilation and then native
+-C# code --> IL --> Ahead of time (AOT) compilation and then 
+	native (no mono runtime)
+-assembly called Xamarin.Forms.Core (common unified api)
+	-referenced in XAML 
+
+
+XAML elements can but put in the code as well
+-If element should be dynamic
+
+StackLayout for multiple widgets 
+-child of parent that is a list
+
+Data Binding
+-UI frameworks
+-binds a property of a UI element to an object
+
+Property Element Syntax
+-"ContentPage.Padding"
+
+XAML Compilation
+-Catch errors at compile time
+-reduced assembly size
+-faster loading of XAML elements
+
+StackLayout
+-used to format multiple elements in a straight line, vertically or 
+-horizontally
+-default stretches to fill
+
+Grid Layout
+-keypads, calculators, calendars, Photo Albums
+-Row and Column do not belong to label class
+-Attached Bindable Properties: set by Grid class, but can be set by other
+classes too
+
+Flags:
+-none, all, widthproportional, heightproportional, xproportional,yproportional
+-positionproportional,sizeproportional
+
+Image Sources
+-Platform independent (Backgrounds)
+	-download using a URI
+	-embed in portable class library (PCL)
+-Platform-specific (icons, splash screens)
+	-add to each application project
+
+-Caching cannot use XAML
+-strings are implcitly converted to URI image sources
+
+-http://icons8.com
+
+-160 units = 1 inch

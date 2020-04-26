@@ -1,0 +1,6 @@
+C:\Users\brode\source\repos\Interview Practice\Interview Practice\bin\Debug\Interview Practice.exe.config
+C:\Users\brode\source\repos\Interview Practice\Interview Practice\bin\Debug\Interview Practice.exe
+C:\Users\brode\source\repos\Interview Practice\Interview Practice\bin\Debug\Interview Practice.pdb
+C:\Users\brode\source\repos\Interview Practice\Interview Practice\obj\Debug\Interview Practice.csprojAssemblyReference.cache
+C:\Users\brode\source\repos\Interview Practice\Interview Practice\obj\Debug\Interview Practice.exe
+C:\Users\brode\source\repos\Interview Practice\Interview Practice\obj\Debug\Interview Practice.pdb

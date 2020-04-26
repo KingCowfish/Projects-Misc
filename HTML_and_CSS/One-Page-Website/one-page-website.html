@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<div id="top">
+		<title>Welsh Corgis</title>
+		<META charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./css/one_page_website.css">
+	</head>
+	<body>
+		<header>
+			<h1><b>Welsh Corgis Are The Best!</b></h1>
+				<p>This is a site dedicated to the wonder that is the Welsh Corgi!</p>
+		</header>
+		
+		<!-- NAV -->
+		<div>
+			<div>
+				<ul>
+					<a href="#home" id="link"><li>HOME</li></a>
+					<a href="#gallery"><li>GALLERY</li></a>
+					<a href="#videos"><li>VIDEOS</li></a>
+					<a href="#discussion"><li>DISCUSSION</li></a>
+				</ul>
+			</div>
+		</div>
+		<!-- END NAV -->
+		
+		<!-- HOME -->
+		<main>
+		<div id="home">
+			<span><b><h1>Welsh Corgis</h1></b></span>
+			<p>Here is a short description about Corgis from the American Kennel Club Website:</p>
+			
+			<blockquote cite="https://www.akc.org/dog-breeds/pembroke-welsh-corgi/">
+			At 10 to 12 inches at the shoulder and 27 to 30 pounds, a well-built male 
+			Pembroke presents a big dog in a small package. Short but powerful legs, 
+			muscular thighs, and a deep chest equip him for a hard day’s work. Built 
+			long and low, Pembrokes are surprisingly quick and agile. They can be red, 
+			sable, fawn, and black and tan, with or without white markings.
+
+			The Pembroke is a bright, sensitive dog who enjoys play with his human 
+			family and responds well to training. As herders bred to move cattle, they 
+			are fearless and independent. They are vigilant watchdogs, with acute senses 
+			and a “big dog” bark. Families who can meet their bold but kindly Pembroke’s 
+			need for activity and togetherness will never have a more loyal, loving pet.
+			</blockquote>	
+		</div>	
+		</main>
+		<!-- END HOME -->
+		
+		<!-- GALLERY -->
+		<section>
+			<div id="gallery">
+				<h1>Gallery</h1>
+
+				<!-- Images used to open the lightbox -->
+				<div class="row">
+					<div class="column">
+						<img src="img/Corgi_1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" style="width:300px">
+					</div>
+					<div class="column">
+						<img src="img/Corgi_2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" style="width: 300px">
+					</div>
+					<div class="column">
+						<img src="img/Corgi_3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" style="width: 300px">
+					</div>
+					<div class="column">
+						<img src="img/Corgi_4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow" style="width: 300px">
+					</div>
+				</div>
+				
+				<!-- The Modal/Lightbox -->
+				<div id="myModal" class="modal">
+					<span class="close cursor" onclick="closeModal()">&times;</span>
+					<div class="modal-content">
+				
+					<div class="mySlides">
+						<div class="numbertext">1 / 4</div>
+						<img src="img/Corgi_1.jpg" style="width:100%">
+					</div>
+				
+					<div class="mySlides">
+						<div class="numbertext">2 / 4</div>
+						<img src="img/Corgi_2.jpg" style="width:100%">
+					</div>
+				
+					<div class="mySlides">
+						<div class="numbertext">3 / 4</div>
+						<img src="img/Corgi_3.jpg" style="width:100%">
+					</div>
+				
+					<div class="mySlides">
+						<div class="numbertext">4 / 4</div>
+						<img src="img/Corgi_4.jpg" style="width:100%">
+					</div>
+				
+					<!-- Next/previous controls -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+				
+					<!-- Caption text -->
+					<div class="caption-container">
+						<p id="caption"></p>
+					</div>
+				
+					<!-- Thumbnail image controls -->
+					<div class="column">
+						<img class="demo" src="img/Corgi_1.jpg" onclick="currentSlide(1)" style="width: 100%" alt="Corgi Puppy">
+					</div>
+				
+					<div class="column">
+						<img class="demo" src="img/Corgi_2.jpg" onclick="currentSlide(2)" style="width: 100%" alt="SnowTricolor Corgi Puppy">
+					</div>
+				
+					<div class="column">
+						<img class="demo" src="img/Corgi_3.jpg" onclick="currentSlide(3)" style="width: 100%" alt="Corgi Face">
+					</div>
+				
+					<div class="column">
+						<img class="demo" src="img/Corgi_4.jpg" onclick="currentSlide(4)" style="width: 100%" alt="Regal Puppy">
+					</div>
+					</div>
+				</div>
+			</div>
+				
+			<a href="#top" id="link"><li>BACK TO TOP</li></a>
+		</section>
+		<!-- END GALLERY -->
+		
+		<!-- VIDEOS -->
+		<section>
+			<div id="videos">
+				<h1>Videos</h1>
+				<div>
+					<iframe src="https://www.youtube.com/watch?v=uglsVqR88l4"></iframe>
+					<p>
+						<a href="https://www.youtube.com/watch?v=uglsVqR88l4" target="new">If above is not working, the Corgi Compilation can be found here:</a>
+					</p>
+				</div>
+				<p>
+					<a href="#top" id="link"><li>BACK TO TOP</li></a>
+				</p>
+			</div>
+		</section>
+		<!-- END VIDEOS -->
+		
+		<!-- RSVP -->
+		<section>
+			<div id="discussion"> 
+				<div>
+					<h1>Discussion</h1>
+					<div>
+						<p><span>Are you also a Corgi Enthusiast?</span>
+							<br />Then join in on the conversation by providing your contact information below!
+						</p>
+						<div>
+							<form action="" method="post">
+								<input class= "rsvp" type="text" value="First Name">
+								<input class= "rsvp" type="text" value="Last Name">
+								<input class= "rsvp" type="text" value="Email Address">
+								<input class= "rsvp" type="text" value="Phone Number">
+								<div class="form-spacer">
+									<label class="terms">Terms and Conditions</label>
+								</div>
+								<div>
+									<input type="submit" value="Submit">
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+				<p>
+					<a href="#top" id="link"><li>BACK TO TOP</li></a>
+				</P>
+			</div>
+		</section>
+		<!-- END RSVP -->
+		
+		<!-- FOOTER -->
+		<div>
+			<p>
+				Made by KingCowfish
+			</p>
+		</div>
+		<!-- END FOOTER -->
+
+		<!-- Javascript -->
+		<script src="js/one-page-website.js"></script>	
+	</body>
+</html>

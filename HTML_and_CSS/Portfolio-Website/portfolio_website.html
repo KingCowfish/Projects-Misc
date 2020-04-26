@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head -->
+    <head>
+        <meta charset="UTF-8">
+        <title>Alexander Broder's Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
+        <script src="jss/portfolio.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </head>
+
+<!-- Body -->
+    <body class="background">
+        <script>
+            document.body.className += ' fade-out';
+                $(function() {
+                $('body').removeClass('fade-out');
+                }
+            );
+            
+        </script>
+
+<!-- Nav Bar -->
+        <div class="Navbar">
+            <a class="active" href="#home"><strong>Home</strong></a>
+            <a href="#about">About</a>
+            <a href="#github">GitHub</a>
+            <a href="#contact" onclick="openForm()">Contact</a>
+        </div>
+
+<!-- Home -->
+            <br> <!-- Breaks inserted to add space between navbar and first heading -->
+            </br>
+
+<!-- Video -->
+        <div id="home">
+            <video autoplay muted loop id="galaxy">
+<!-- Makes video play automatically, on a loop, with no sound -->
+                <source src="./video/galaxy.mp4" type="video/mp4">
+                Your browser does not support HTML5 video. <!-- Display message if video fails to run -->                
+            </video>
+        </div>
+
+<!-- Video text -->
+        <div class="video_text">
+            <h1 style="color: #00cccc; font-style:oblique;">Alexander Broder's Portfolio</h1>
+                <p>
+                    <strong>
+                        <center>
+                            <q>We are all in the gutter,<br>
+                            but some of us are looking at the stars.
+                            </q>
+                            <br>-Oscar Wilde<br>
+                            <br>
+                            Hello!  My name is Alexander Broder.  Welcome to my portfolio website.<br>
+                            Let me know what you think!<br>
+                        </center>
+                    </strong>
+                </p>
+        </div>
+
+<!-- About section -->
+        <div class="row">
+            <!-- Gallery Slideshow -->
+            <div class="column_2"> <!-- Left column -->
+                <div class="slideshow-container">
+                    
+                    <div class="mySlides fade" style="display: block;">
+                        <div class="numbertext">1 / 4</div>   
+                            <img src="./images/me.jpeg" alt="A picture of Alexander Broder." style="width:300px;">
+                    </div>
+                
+                
+                    <div class="mySlides fade" style="display: none;">
+                        <div class="numbertext">2 / 4</div>
+                            <img src="./images/html-css-js.png" alt="HTML, CSS, and Javascript.">
+                    </div>
+
+                    <div class="mySlides fade" style="display: none;">
+                        <div class="numbertext">3 / 4</div>
+                            <img src="./images/sql-logo.png" alt="HTML, CSS, and Javascript.">
+                    </div>
+                
+                    <div class="mySlides fade" style="display: none;"">
+                        <div class="numbertext">4 / 4</div>
+                            <img src="./images/corgi_fields.jpg" alt="Alex and his pup Karma.">
+                    </div>
+
+                    <!-- The dots/circles -->
+                    <div style="text-align:center">
+                        <span class="dot active" onclick="currentSlide(1)"></span> 
+                        <span class="dot" onclick="currentSlide(2)"></span> 
+                        <span class="dot" onclick="currentSlide(3)"></span> 
+                        <span class="dot" onclick="currentSlide(4)"></span> 
+                    </div>  
+
+                    <!-- Next and Previous buttons - leaving in case I want to add them back in the future
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+                </div>
+            </div>
+
+            <!-- Writeup -->
+            <div class="column_1" id="about"> <!-- Right Column -->
+                <h1>About</h1>
+                <p>
+                I am a recent coding convert who loves to play with my Welsh corgi Karma and look up at the stars!<br><br>
+                Currently, I am studying software development at <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy,</a>
+                where I am becoming proficient in HTML, CSS, and Javascript, SQL, the C# coding language, and the .Net Framework.<br><br>
+                While I have only been at the school for a little while now, I already
+                know that my decision to change caeers was the correct one. I have always
+                enjoyed creative problem solving (even to the point where I made it through
+                an entire Python textbook because I enjoyed it so much!) so software development
+                feels like the perfect fit for me. I am truly excited to learn and grow within 
+                this field.  I'd love to talk so feel free to <a href="#contact">contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+<!-- Github section -->
+        <div class="row">
+            <div class="column_1" " id="github"> <!-- Left column -->
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:<br>
+                    <center><a href="https://github.com/KingCowfish" target="_blank">Alexander Broder's GitHub</a></center> 
+                </p>
+            </div>
+            <div class="column_2"> <!-- Right column-->
+                <a href="https://github.com/KingCowfish" target="_blank"><img src="./images/octonaut.jpg" alt="GitHub"></a>
+            </div>
+        </div>
+
+<!-- Contact section -->
+        <button class="open-button" onclick="openForm()">Contact</button>
+            <div class="form-popup"  id="contact">
+                <form class="form-container" name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                    <label>Name:</label>
+                        <input type="text" name="name" placeholder="Please enter your name here:">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="email" placeholder="Please enter your name here:">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="message" placeholder="Please write your message here:">
+                        <input type="submit" value="Submit"class="btn btn-secondary popover-dismiss" data-container="body" data-toggle="popover" data-placement="right" data-content="Thanks so much for reaching out!">
+                        <button type="button" class="btn" onclick="closeForm()">Close</button>
+                </form>
+            </div>
+        
+
+<!-- Footer section -->
+    <footer>
+        <p>
+            <center><a href="https://learncodinganywhere.com/" style="color:ghostwhite; font-weight: bold">The Tech Academy</a></center><br>
+        </p>
+    </footer>
+
+<!-- jQuery first, then bootstrap js -->
+		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+        <script>
+            $('.popover-dismiss').popover({
+                trigger: 'focus'
+            })
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,400 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* Body */
+body {
+    margin: 0%; /* This ensures our site displays all the way to the edge of the browser screen */
+    opacity: 1;
+    transition: 3s opacity;
+}
+
+body.fade-out {
+    opacity: .1;
+    transition: none;
+}
+
+
+h1 {
+    text-transform: uppercase; /* capitalize headings */
+    font-family: "Trebuchet MS", Optima;
+    text-align: center;
+    margin-top: 2%;
+    color: #1a1a1a;
+    font-size: 3em;
+}
+
+p {
+    font-family: Perpetua, Rockwell Extra Bold;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 17px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+center {
+    font-family: Perpetua, Rockwell Extra Bold;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a{
+    color: ghostwhite;
+}
+
+q {
+    font-style: italic;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: 340px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Perpetua, Rockwell Extra Bold;
+}
+
+input[type=submit] {
+    background-color: black;
+    color: ghostwhite;
+    font-weight: bold;
+    padding: 12px 20px;
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Perpetua, Rockwell Extra Bold;
+}
+
+button[type="button"] {
+    background-color: darkcyan;
+    color: black;
+    font-weight: bold;
+    padding: 12px 20px;
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Perpetua, Rockwell Extra Bold;
+
+}
+
+input[type=submit]:hover {
+    background-color: darkcyan;
+    color: black;
+    font-weight: bold;
+}
+
+button[type="button"]:hover {
+    background-color: black;
+    color: ghostwhite;
+    font-weight: bold;
+}
+
+form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    font-family: "Trebuchet MS", Optima;
+}
+
+center:hover {
+    transition: transform 2s;
+    transform: scale(1.1);
+}
+
+p:hover {
+    transition: transform 1s;
+    transform: scale(1.01);
+}
+
+h1:hover {
+    color: black;
+}
+
+img:hover {
+    transition: transform 1s;
+    transform: scale(1.1);
+}
+
+footer {
+    padding: 2%;
+    background: rgba(0, 0, 0, 0);
+}
+
+
+.Navbar {
+    overflow: hidden; /* This ensures that any content that overflows beyond the boundary of 
+    our nav bar is not displayed */
+    background-color: black;
+    position: fixed; /* keeps the navbar at the top of the screen as we scroll */
+    top: 0; /* makes the navbar span the entire width of the page */
+    width: 100%; /*!!!!!!!!!!!!!! makes navbar span entire width of page*/
+    z-index: 1;
+    -webkit-animation: moveNav 4s; /* Safari 4.0 - 8.0 */
+    animation: moveNav 4s;
+}
+
+/* Navbar text */
+.Navbar a {
+    float: left; /* text floats on the left of the navbar */
+    display: block;
+    color: ghostwhite;
+    padding: 14px 16px;
+    text-decoration: none; /* gets rid of underlines */
+    font-family: Avant Garde, Helvetica;
+    font-size: 20px;
+    text-align: center;
+    -webkit-animation: movenavText 4.75s; /* Safari 4.0 - 8.0 */
+    animation: movenavText 4.75s;
+}
+
+/* Navbar hover effect */
+.Navbar a:hover {
+    background-color: ghostwhite;
+    color: dimgray;
+    font-weight: bold;
+}
+
+/* Navbar Home button */
+.Navbar a.active {
+    color: darkorange;
+    background-color: black;
+}
+
+.Navbar a.active:hover {
+    background-color: ghostwhite;
+}
+
+@keyframes moveNav {
+    from {left: -100vw;}
+    to {left: 0vw;}
+  }
+
+/* Video */
+#galaxy {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    min-width: 100%;
+    z-index: -1;
+}
+
+/* text over the video */
+.video_text {
+    background: rgba(0, 0, 0, 0.5); /* proviedes semi-transparent background */
+    color: ghostwhite;
+    width: 100%; /* !!!!!!!!!!!!!!! */
+    padding: 25px;
+    margin-top: 14%;
+    margin-bottom: 19%
+}
+
+/* table */
+* {
+    box-sizing: border-box;
+}
+
+.column_1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 3%;
+    height: 400px;
+    background-color: darkcyan; 
+    background-image: linear-gradient(#00cccc, #008080);
+}
+
+.column_2 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 1%;
+    height: 400px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.row:after {/* inserts something after content of selected elements */
+    content: ""; /* allows footer to show up */
+    display: table;
+    clear: both;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons, leaving here in case I ever want to put it back
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+   Position the "next button" to the right 
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+   On hover, add a black background color with a little bit see-through 
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  } */
+  
+  /* Caption text, leaving this here in case I ever want to put it back 
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    top: 0px;
+    width: 100%;
+    text-align: center;
+  } */
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+    display: none;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    background-color: darkcyan;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    margin: 15px 5px 5px 0px;
+  }
+  
+  .active {
+    background-color: cyan;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+/* Dealing with the contact form */
+.open-button {
+    background-color:darkorange;
+    font-weight: bold;
+    color: white;
+    font-size: 1em;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 200px;
+    -webkit-animation: movePopup 4.5s;
+    animation: movePopup 4.5s;
+  }
+
+  @keyframes movePopup {
+    from {bottom: -40vw;}
+    to {bottom: 1.75vw;}
+  }
+
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid darkcyan;
+    z-index: 9;
+    border-radius: 5px;
+  }
+  
+  .form-container {
+    max-width: 500px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .form-container input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  .form-container input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }

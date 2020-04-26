@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "nnoU8a++obVxoZMUWupWTCXREY3llzUQ+FXvDOt51Smk4RQa3M9TiSvuiuuKRgrgk0iPHT1M+Bcq2e1L5tuDnQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\brode\\Desktop\\School\\Xamarin_Forms___SkiaSharp_and_Xamarin_Forms\\Demos\\SkiaSharpFormsDemos\\SkiaSharpFormsDemos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\brode\\.nuget\\packages\\skiasharp\\1.60.0\\skiasharp.1.60.0.nupkg.sha512",
+    "C:\\Users\\brode\\.nuget\\packages\\skiasharp.views.forms\\1.60.0\\skiasharp.views.forms.1.60.0.nupkg.sha512",
+    "C:\\Users\\brode\\.nuget\\packages\\xamarin.forms\\4.5.0.396\\xamarin.forms.4.5.0.396.nupkg.sha512"
+  ],
+  "logs": []
+}
