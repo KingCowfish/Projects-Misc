@@ -1,0 +1,8 @@
+C:\Users\brode\Desktop\School\Online\C# Essential Training\EssentialTraining\EssentialTraining\bin\Debug\netstandard2.0\EssentialTraining.deps.json
+C:\Users\brode\Desktop\School\Online\C# Essential Training\EssentialTraining\EssentialTraining\bin\Debug\netstandard2.0\EssentialTraining.dll
+C:\Users\brode\Desktop\School\Online\C# Essential Training\EssentialTraining\EssentialTraining\bin\Debug\netstandard2.0\EssentialTraining.pdb
+C:\Users\brode\Desktop\School\Online\C# Essential Training\EssentialTraining\EssentialTraining\obj\Debug\netstandard2.0\EssentialTraining.csproj.CoreCompileInputs.cache
+C:\Users\brode\Desktop\School\Online\C# Essential Training\EssentialTraining\EssentialTraining\obj\Debug\netstandard2.0\EssentialTraining.AssemblyInfoInputs.cache
+C:\Users\brode\Desktop\School\Online\C# Essential Training\EssentialTraining\EssentialTraining\obj\Debug\netstandard2.0\EssentialTraining.AssemblyInfo.cs
+C:\Users\brode\Desktop\School\Online\C# Essential Training\EssentialTraining\EssentialTraining\obj\Debug\netstandard2.0\EssentialTraining.dll
+C:\Users\brode\Desktop\School\Online\C# Essential Training\EssentialTraining\EssentialTraining\obj\Debug\netstandard2.0\EssentialTraining.pdb

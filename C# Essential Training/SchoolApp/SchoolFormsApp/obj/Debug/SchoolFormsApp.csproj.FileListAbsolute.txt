@@ -1,0 +1,13 @@
+C:\Users\brode\Desktop\School\Online\C# Essential Training\SchoolApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.csprojAssemblyReference.cache
+C:\Users\brode\Desktop\School\Online\C# Essential Training\SchoolApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.Form1.resources
+C:\Users\brode\Desktop\School\Online\C# Essential Training\SchoolApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.Properties.Resources.resources
+C:\Users\brode\Desktop\School\Online\C# Essential Training\SchoolApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.csproj.GenerateResource.cache
+C:\Users\brode\Desktop\School\Online\C# Essential Training\SchoolApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\brode\Desktop\School\Online\C# Essential Training\SchoolApp\SchoolFormsApp\bin\Debug\SchoolFormsApp.exe.config
+C:\Users\brode\Desktop\School\Online\C# Essential Training\SchoolApp\SchoolFormsApp\bin\Debug\SchoolFormsApp.exe
+C:\Users\brode\Desktop\School\Online\C# Essential Training\SchoolApp\SchoolFormsApp\bin\Debug\SchoolFormsApp.pdb
+C:\Users\brode\Desktop\School\Online\C# Essential Training\SchoolApp\SchoolFormsApp\bin\Debug\SchoolLibrary.dll
+C:\Users\brode\Desktop\School\Online\C# Essential Training\SchoolApp\SchoolFormsApp\bin\Debug\SchoolLibrary.pdb
+C:\Users\brode\Desktop\School\Online\C# Essential Training\SchoolApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.csproj.CopyComplete
+C:\Users\brode\Desktop\School\Online\C# Essential Training\SchoolApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.exe
+C:\Users\brode\Desktop\School\Online\C# Essential Training\SchoolApp\SchoolFormsApp\obj\Debug\SchoolFormsApp.pdb

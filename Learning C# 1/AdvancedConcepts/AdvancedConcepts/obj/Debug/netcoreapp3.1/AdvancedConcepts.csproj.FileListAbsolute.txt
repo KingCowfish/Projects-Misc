@@ -1,0 +1,13 @@
+C:\Users\brode\Desktop\School\Online\Learning C#\AdvancedConcepts\AdvancedConcepts\bin\Debug\netcoreapp3.1\AdvancedConcepts.exe
+C:\Users\brode\Desktop\School\Online\Learning C#\AdvancedConcepts\AdvancedConcepts\bin\Debug\netcoreapp3.1\AdvancedConcepts.deps.json
+C:\Users\brode\Desktop\School\Online\Learning C#\AdvancedConcepts\AdvancedConcepts\bin\Debug\netcoreapp3.1\AdvancedConcepts.runtimeconfig.json
+C:\Users\brode\Desktop\School\Online\Learning C#\AdvancedConcepts\AdvancedConcepts\bin\Debug\netcoreapp3.1\AdvancedConcepts.runtimeconfig.dev.json
+C:\Users\brode\Desktop\School\Online\Learning C#\AdvancedConcepts\AdvancedConcepts\bin\Debug\netcoreapp3.1\AdvancedConcepts.dll
+C:\Users\brode\Desktop\School\Online\Learning C#\AdvancedConcepts\AdvancedConcepts\bin\Debug\netcoreapp3.1\AdvancedConcepts.pdb
+C:\Users\brode\Desktop\School\Online\Learning C#\AdvancedConcepts\AdvancedConcepts\obj\Debug\netcoreapp3.1\AdvancedConcepts.csprojAssemblyReference.cache
+C:\Users\brode\Desktop\School\Online\Learning C#\AdvancedConcepts\AdvancedConcepts\obj\Debug\netcoreapp3.1\AdvancedConcepts.csproj.CoreCompileInputs.cache
+C:\Users\brode\Desktop\School\Online\Learning C#\AdvancedConcepts\AdvancedConcepts\obj\Debug\netcoreapp3.1\AdvancedConcepts.AssemblyInfoInputs.cache
+C:\Users\brode\Desktop\School\Online\Learning C#\AdvancedConcepts\AdvancedConcepts\obj\Debug\netcoreapp3.1\AdvancedConcepts.AssemblyInfo.cs
+C:\Users\brode\Desktop\School\Online\Learning C#\AdvancedConcepts\AdvancedConcepts\obj\Debug\netcoreapp3.1\AdvancedConcepts.dll
+C:\Users\brode\Desktop\School\Online\Learning C#\AdvancedConcepts\AdvancedConcepts\obj\Debug\netcoreapp3.1\AdvancedConcepts.pdb
+C:\Users\brode\Desktop\School\Online\Learning C#\AdvancedConcepts\AdvancedConcepts\obj\Debug\netcoreapp3.1\AdvancedConcepts.genruntimeconfig.cache

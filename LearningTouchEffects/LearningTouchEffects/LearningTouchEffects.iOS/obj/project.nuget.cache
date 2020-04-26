@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Cw9Wy/rN+ki0Ut/5mR9H9TfFnnykPx6rKnQhy3hiAdWt7T37tGRb9HoIBEhWkN/fdrgFUARPhNWU7eYYIYRWDw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\brode\\Desktop\\School\\Online\\LearningTouchEffects\\LearningTouchEffects\\LearningTouchEffects.iOS\\LearningTouchEffects.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\brode\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "C:\\Users\\brode\\.nuget\\packages\\xamarin.forms\\4.4.0.991265\\xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}
