@@ -1977,11 +1977,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports.Android\\HPlusSports.Android.csproj",
+      "projectUniqueName": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports.Android\\HPlusSports.Android.csproj",
       "projectName": "HPlusSports.Android",
-      "projectPath": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports.Android\\HPlusSports.Android.csproj",
+      "projectPath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports.Android\\HPlusSports.Android.csproj",
       "packagesPath": "C:\\Users\\brode\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports.Android\\obj\\",
+      "outputPath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2002,8 +2002,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj": {
-              "projectPath": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj"
+            "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj": {
+              "projectPath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj"
             }
           }
         }

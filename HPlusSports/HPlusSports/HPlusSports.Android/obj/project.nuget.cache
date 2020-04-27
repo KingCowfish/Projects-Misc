@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x1molQ290LioE0KOMx8Te7kWFeu8i9NJjknt2HO3L3UoIl5K/gTiHXdhQyKJTGe21e0neIWc9bn32IJ6bJvaqA==",
+  "dgSpecHash": "Rc/1K1Hpt0LB9mkclMyn3t3v0RzBltA/q2NvEkbjJ9gXYld2AYOhL6lFyig2sd7GkJpAzbrJsrD7tYTiDcgs4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports.Android\\HPlusSports.Android.csproj",
+  "projectFilePath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports.Android\\HPlusSports.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brode\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",
