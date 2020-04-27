@@ -20,12 +20,12 @@ namespace HPlusSports
 
         protected override void OnSleep()
         {
-            Services.Product.SaveWishList();
+            //Services.Product.SaveWishList();
         }
 
         protected override void OnResume()
         {
-            Services.Product.LoadWishList();
+            //Services.Product.LoadWishList();
         }
     }
 }

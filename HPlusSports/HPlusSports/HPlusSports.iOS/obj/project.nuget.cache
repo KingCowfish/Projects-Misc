@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ITPh6TKomfICnzH3S97Py8InnDRBgYlbJNEd6/+inP0LSzlElXHbEy/0bIwVSQ360DiCe9crassCXhGLqPtlIA==",
+  "dgSpecHash": "8GdELkmZl/47bFnszn/5OIkNyhDBBR+PNtiRHdjNYcAo20/wWBcaGYtTJSxpI0B75eGZrr2JZzYA6AZBIwb0Zw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\HPlusSports.iOS.csproj",
+  "projectFilePath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\HPlusSports.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\brode\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\brode\\.nuget\\packages\\xamarin.essentials\\1.5.3\\xamarin.essentials.1.5.3.nupkg.sha512",

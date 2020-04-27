@@ -1055,11 +1055,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\HPlusSports.iOS.csproj",
+      "projectUniqueName": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\HPlusSports.iOS.csproj",
       "projectName": "HPlusSports.iOS",
-      "projectPath": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\HPlusSports.iOS.csproj",
+      "projectPath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\HPlusSports.iOS.csproj",
       "packagesPath": "C:\\Users\\brode\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\obj\\",
+      "outputPath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1080,8 +1080,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj": {
-              "projectPath": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj"
+            "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj": {
+              "projectPath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj"
             }
           }
         }

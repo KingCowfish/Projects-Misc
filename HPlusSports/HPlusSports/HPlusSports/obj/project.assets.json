@@ -668,21 +668,19 @@
   },
   "packageFolders": {
     "C:\\Users\\brode\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj",
+      "projectUniqueName": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj",
       "projectName": "HPlusSports",
-      "projectPath": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj",
+      "projectPath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj",
       "packagesPath": "C:\\Users\\brode\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports\\obj\\",
+      "outputPath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\brode\\AppData\\Roaming\\NuGet\\NuGet.Config",
