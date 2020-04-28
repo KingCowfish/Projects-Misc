@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\HPlusSports.iOS.csproj": {}
+    "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\HPlusSports.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\HPlusSports.iOS.csproj": {
+    "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\HPlusSports.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\HPlusSports.iOS.csproj",
+        "projectUniqueName": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\HPlusSports.iOS.csproj",
         "projectName": "HPlusSports.iOS",
-        "projectPath": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\HPlusSports.iOS.csproj",
+        "projectPath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\HPlusSports.iOS.csproj",
         "packagesPath": "C:\\Users\\brode\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\obj\\",
+        "outputPath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj": {
-                "projectPath": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj"
+              "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj": {
+                "projectPath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj"
               }
             }
           }
@@ -69,18 +69,17 @@
         }
       }
     },
-    "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj": {
+    "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj",
+        "projectUniqueName": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj",
         "projectName": "HPlusSports",
-        "projectPath": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj",
+        "projectPath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj",
         "packagesPath": "C:\\Users\\brode\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\brode\\Desktop\\School\\Online\\HPlusSports\\HPlusSports\\HPlusSports\\obj\\",
+        "outputPath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\brode\\AppData\\Roaming\\NuGet\\NuGet.Config",
