@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8bPjMWPll8xthjfqslIO7eh2gicREczem3CeS5GZG0MJHTF43KiXfo5m1BqAg2hrYM4UAToxY/BSqYTdKGfaZA==",
+  "dgSpecHash": "WJZJ/jL5tetGQ+adO0Vjz6NYeKvZ9uUxadD3j9VBddbQzkC3ULMWRlWQ7seV5DlX70if02FYBQWo5RHp9KvWzw==",
   "success": true,
   "projectFilePath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports.Android\\HPlusSports.Android.csproj",
   "expectedPackageFiles": [
@@ -45,5 +45,12 @@
     "C:\\Users\\brode\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
     "C:\\Users\\brode\\.nuget\\packages\\xamarin.forms\\4.5.0.617\\xamarin.forms.4.5.0.617.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports.Android\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

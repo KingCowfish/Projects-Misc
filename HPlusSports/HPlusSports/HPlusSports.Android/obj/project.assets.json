@@ -798,7 +798,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3",
+          "Xamarin.Essentials": "1.5.3.1",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -2027,5 +2027,13 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports.Android\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

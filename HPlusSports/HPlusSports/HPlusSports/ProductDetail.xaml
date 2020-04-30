@@ -7,6 +7,14 @@
              BindingContext="{x:Static design:ProductModel.Product}"
              mc:Ignorable="d"
              x:Class="HPlusSports.ProductDetail">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:Double" x:Key="xConstant">
+                <On Platform="Android" Value="150"/>
+                <On Platform="iOS,UWP" Value="100"/>
+            </OnPlatform>
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <ContentPage.Content>
         <ScrollView HorizontalOptions="FillAndExpand" 
                     VerticalOptions="FillAndExpand"
@@ -29,10 +37,17 @@
             <RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start">
                 <Button Text="Order"
                         Clicked="orderBtn_Clicked"
-                        x:Name="orderBtn"
-                        RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=.25}"></Button>
+                        x:Name="orderBtn">
+                        <RelativeLayout.WidthConstraint>
+                            <OnPlatform x:TypeArguments="Constraint">
+                                <On Platform="Android" Value="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=.35}"/>
+                                <On Platform="iOS,UWP" Value="{ConstraintExpression Type=RelativeToParent, Property=Width,Factor=.25}"/>
+                            </OnPlatform>
+                        </RelativeLayout.WidthConstraint>
+                </Button>
                 <Button Text="Favorite"
-                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=orderBtn, Property=X, Constant=200}"></Button>
+                        Clicked="Handle_Favorite"
+                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=orderBtn, Property=X, Constant={StaticResource Key=xConstant}}"></Button>
             </RelativeLayout>
         </StackLayout>
         </ScrollView>
