@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Gw9o2rfLNeufDfMH1t5UVYy4rebPEnuvbG3IDyYAp9Pl5PV4tUBbye/ozLvA2CiNkw9iH19AOqMZPVePuAUgXg==",
+  "dgSpecHash": "gEwAjxZWHInjqexQDA6G7H876RmBJVFP4df55RRzmFhvm+ieDwq3EXQWU5vEjVS6rHO8TreTpbTMKYBIxodSWg==",
   "success": true,
   "projectFilePath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports\\HPlusSports.csproj",
   "expectedPackageFiles": [
@@ -8,7 +8,7 @@
     "C:\\Users\\brode\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\brode\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\brode\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\brode\\.nuget\\packages\\xamarin.essentials\\1.5.3\\xamarin.essentials.1.5.3.nupkg.sha512",
+    "C:\\Users\\brode\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
     "C:\\Users\\brode\\.nuget\\packages\\xamarin.forms\\4.5.0.617\\xamarin.forms.4.5.0.617.nupkg.sha512"
   ],
   "logs": []

@@ -11,7 +11,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3": {
+      "Xamarin.Essentials/1.5.3.1": {
         "type": "package",
         "frameworkAssemblies": [
           "OpenTK-1.0",
@@ -150,7 +150,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3",
+          "Xamarin.Essentials": "1.5.3.1",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -171,7 +171,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3": {
+      "Xamarin.Essentials/1.5.3.1": {
         "type": "package",
         "frameworkAssemblies": [
           "OpenTK-1.0",
@@ -310,7 +310,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3",
+          "Xamarin.Essentials": "1.5.3.1",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -331,7 +331,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3": {
+      "Xamarin.Essentials/1.5.3.1": {
         "type": "package",
         "frameworkAssemblies": [
           "OpenTK-1.0",
@@ -470,7 +470,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3",
+          "Xamarin.Essentials": "1.5.3.1",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -491,7 +491,7 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
-      "Xamarin.Essentials/1.5.3": {
+      "Xamarin.Essentials/1.5.3.1": {
         "type": "package",
         "frameworkAssemblies": [
           "OpenTK-1.0",
@@ -630,7 +630,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3",
-          "Xamarin.Essentials": "1.5.3",
+          "Xamarin.Essentials": "1.5.3.1",
           "Xamarin.Forms": "4.5.0.617"
         },
         "compile": {
@@ -674,10 +674,10 @@
         "packageIcon.png"
       ]
     },
-    "Xamarin.Essentials/1.5.3": {
-      "sha512": "nJg5P4vpRfPHiLAWOwb18pSKJcfcUzqietWWYOR9tza10cxbxC5J8oK5wfiggi6I6xDpHf5q09eRf0N0at2MRw==",
+    "Xamarin.Essentials/1.5.3.1": {
+      "sha512": "6sE3kGMhES7dsR8ll+ar+roEIFobjPfDskKNMsU4FF6cV27ZsdArGZHxe1QqPPJcMT6PzJsGvA3l5PNMZgw5ng==",
       "type": "package",
-      "path": "xamarin.essentials/1.5.3",
+      "path": "xamarin.essentials/1.5.3.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -718,7 +718,7 @@
         "lib/xamarinwatchos10/Xamarin.Essentials.pdb",
         "lib/xamarinwatchos10/Xamarin.Essentials.xml",
         "readme.txt",
-        "xamarin.essentials.1.5.3.nupkg.sha512",
+        "xamarin.essentials.1.5.3.1.nupkg.sha512",
         "xamarin.essentials.nuspec"
       ]
     },
@@ -1044,7 +1044,7 @@
     "Xamarin.iOS,Version=v1.0": [
       "HPlusSports >= 1.0.0",
       "Newtonsoft.Json >= 12.0.3",
-      "Xamarin.Essentials >= 1.5.3",
+      "Xamarin.Essentials >= 1.5.3.1",
       "Xamarin.Forms >= 4.5.0.617"
     ]
   },
@@ -1096,7 +1096,7 @@
           },
           "Xamarin.Essentials": {
             "target": "Package",
-            "version": "[1.5.3, )"
+            "version": "[1.5.3.1, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
