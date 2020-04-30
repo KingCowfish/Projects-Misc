@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Rc/1K1Hpt0LB9mkclMyn3t3v0RzBltA/q2NvEkbjJ9gXYld2AYOhL6lFyig2sd7GkJpAzbrJsrD7tYTiDcgs4A==",
+  "dgSpecHash": "8bPjMWPll8xthjfqslIO7eh2gicREczem3CeS5GZG0MJHTF43KiXfo5m1BqAg2hrYM4UAToxY/BSqYTdKGfaZA==",
   "success": true,
   "projectFilePath": "C:\\Repos\\Projects-Misc\\HPlusSports\\HPlusSports\\HPlusSports.Android\\HPlusSports.Android.csproj",
   "expectedPackageFiles": [
@@ -42,7 +42,7 @@
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.vector.drawable\\28.0.0.3\\xamarin.android.support.vector.drawable.28.0.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.versionedparcelable\\28.0.0.3\\xamarin.android.support.versionedparcelable.28.0.0.3.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.support.viewpager\\28.0.0.3\\xamarin.android.support.viewpager.28.0.0.3.nupkg.sha512",
-    "C:\\Users\\brode\\.nuget\\packages\\xamarin.essentials\\1.5.3\\xamarin.essentials.1.5.3.nupkg.sha512",
+    "C:\\Users\\brode\\.nuget\\packages\\xamarin.essentials\\1.5.3.1\\xamarin.essentials.1.5.3.1.nupkg.sha512",
     "C:\\Users\\brode\\.nuget\\packages\\xamarin.forms\\4.5.0.617\\xamarin.forms.4.5.0.617.nupkg.sha512"
   ],
   "logs": []
